@@ -1,1 +1,73 @@
 /* CSS stillerinizi buraya girin */
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+    align-items: center;
+}
+header nav a{
+    background-color: brown;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10%;
+    border: 2px solid olive;
+}
+main{
+    background-image: url("https://picsum.photos/700/500");
+    width: 700px;
+    height: 500px;
+    border-radius: 5%;
+    border: 2px solid red;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+main div{
+    text-align: center;
+}
+
+main div button{
+    padding: 10px 20px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 850px;
+    margin: 0 auto;
+}
+section div{
+    width: 30%;
+    text-align: center;
+}
+section img{
+    width: 100%;
+    border-radius: 2%;
+    border: 2px solid blueviolet;
+}
+section div p{
+    font-size: 18px ;
+    font-style: italic;
+}
+
+footer{
+    background-color: gray;
+    width: 850px;
+    margin: auto auto;
+    height: 100px;
+    text-align: center;
+}
+footer button{
+    padding: 20px 50px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+}
